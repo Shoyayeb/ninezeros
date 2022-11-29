@@ -6,13 +6,81 @@
     padding: 20px 40px;
 }
 .buy-now-button{
-    border: none;
+    border: transparent;
     background-image: linear-gradient(to bottom , #ff589b 0%,#ff146f 100%);
     border-radius: 8px;
     padding: 9px 25px;
+    cursor: pointer;
+    transition: 2s;
+    color: #fceae8;
+
     
 
 }
+.buy-now-buttonn{
+    border: transparent;
+    background-image: linear-gradient(to bottom , #ffc558 0%,#ff7b00 100%);
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: 2s;
+    color: #fceae8;
+
+}
+
 .price{
     color: #ff136f;
+}
+
+.cat1{
+    background-color: #ffc558;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    
+}
+.cat2{
+background-color: #ff589b;
+padding: 10px 30px;
+color: white;
+border-radius: 10px;
+
+}
+.cat3{
+background-color: #ff7b00;
+padding: 10px 30px;
+color: white;
+border-radius: 10px;
+}
+.categories img{
+width: 100px;
+}
+.shoes h2{
+    color: #ff136f;
+}
+.card{
+    box-shadow: 5px 5px 10px lightgray;
+}
+.backpack h3{
+    color: #f5b134;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+    padding-left: 0%;
+    border-radius: 10px;
+}
+.subs{
+    background-color: #fceae8;
+    border-radius: 10px;
+    height: 300px;
+}
+.subs h3{
+    color: black;
+}
+.subs h6{
+    color: gray;
+}
+.footer{
+    text-align: center;
 }
